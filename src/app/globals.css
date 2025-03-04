@@ -1,26 +1,89 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #F0E7CB;
+  --foreground: #474747;
+  --primary: #6CA393;
+  --secondary: #F0E7CB;
+  --accent: #F9E9E6;
+  --error: #9E2D2D;
+  --warning: #FF9500;
+  --surface: #F0E7CB;
+  --surface-variant: #F9E9E6;
+  --on-background: #474747;
+  --on-surface: #474747;
+  --on-surface-variant: #474747;
+  --elevation-level0: transparent;
+  --elevation-level1: #F0E7CB;
+  --elevation-level2: #F9E9E6;
+  --elevation-level3: #F9E9E6;
+  --elevation-level4: #F9E9E6;
+  --elevation-level5: #F9E9E6;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+  --font-heading: var(--font-austin);
+  --font-body: var(--font-graphik);
   --font-mono: var(--font-geist-mono);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #2C3530;
+    --foreground: #F0E7CB;
+    --primary: #6CA393;
+    --secondary: #3A4943;
+    --accent: #9E6F6B;
+    --surface: #2C3530;
+    --surface-variant: #3A4943;
+    --on-background: #F0E7CB;
+    --on-surface: #F0E7CB;
+    --on-surface-variant: #F0E7CB;
+    --elevation-level0: transparent;
+    --elevation-level1: #2C3530;
+    --elevation-level2: #3A4943;
+    --elevation-level3: #3A4943;
+    --elevation-level4: #3A4943;
+    --elevation-level5: #3A4943;
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body), sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading), serif;
+}
+
+/* Add smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Ensure images are responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Utility classes for consistent spacing */
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Improved button styles */
+button:focus, 
+a:focus {
+  outline: 2px solid rgba(108, 163, 147, 0.5);
+  outline-offset: 2px;
 }
