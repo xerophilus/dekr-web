@@ -421,7 +421,7 @@ export default function Home() {
       </section> */}
 
       {/* About Us Section */}
-      <section className="py-16 bg-gray-50 dark:bg-gray-900/30">
+      {/* <section className="py-16 bg-gray-50 dark:bg-gray-900/30">
         <div className="container mx-auto px-6 max-w-7xl">
           <h2 className="font-heading text-3xl font-bold text-center mb-16">Meet the Team Behind Dekr</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -463,7 +463,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Footer */}
       <footer className="py-12 bg-secondary dark:bg-surface text-on-background">
