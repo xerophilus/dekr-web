@@ -445,21 +445,9 @@ export default function Home() {
             </div>
             <div className="bg-white dark:bg-gray-800 p-8 rounded-2xl text-center">
               <div className="w-24 h-24 bg-gray-200 dark:bg-gray-700 rounded-full mx-auto mb-4"></div>
-              <h3 className="font-heading text-xl font-semibold mb-2">Zach Kalman</h3>
-              <p className="text-gray-500 mb-4">VP of Product</p>
-              <p className="text-gray-600 dark:text-gray-300">Product strategist with expertise in creating user-friendly financial tools that simplify complex investment decisions.</p>
-            </div>
-            <div className="bg-white dark:bg-gray-800 p-8 rounded-2xl text-center">
-              <div className="w-24 h-24 bg-gray-200 dark:bg-gray-700 rounded-full mx-auto mb-4"></div>
               <h3 className="font-heading text-xl font-semibold mb-2">Tyler Seabolt</h3>
               <p className="text-gray-500 mb-4">VP of Sales</p>
               <p className="text-gray-600 dark:text-gray-300">Sales leader experienced in growing fintech solutions and building strategic partnerships in the financial industry.</p>
-            </div>
-            <div className="bg-white dark:bg-gray-800 p-8 rounded-2xl text-center">
-              <div className="w-24 h-24 bg-gray-200 dark:bg-gray-700 rounded-full mx-auto mb-4"></div>
-              <h3 className="font-heading text-xl font-semibold mb-2">Fielden Fleming</h3>
-              <p className="text-gray-500 mb-4">General Counsel</p>
-              <p className="text-gray-600 dark:text-gray-300">Legal expert specialized in financial regulations and compliance, ensuring Dekr&apos;s solutions meet the highest standards.</p>
             </div>
             <div className="bg-white dark:bg-gray-800 p-8 rounded-2xl text-center">
               <div className="w-24 h-24 bg-gray-200 dark:bg-gray-700 rounded-full mx-auto mb-4"></div>
