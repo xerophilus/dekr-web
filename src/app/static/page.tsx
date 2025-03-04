@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function StaticPage() {
   return (
     <html>
@@ -23,7 +25,7 @@ export default function StaticPage() {
           <p>This is a completely static page with no client-side JavaScript.</p>
           <p>If you can see this, your server-side rendering is working correctly.</p>
           <div style={{ marginTop: '30px' }}>
-            <a 
+            <Link 
               href="/"
               style={{
                 display: 'inline-block',
@@ -35,8 +37,8 @@ export default function StaticPage() {
               }}
             >
               Return to Home
-            </a>
-            <a 
+            </Link>
+            <Link 
               href="/debug"
               style={{
                 display: 'inline-block',
@@ -49,7 +51,7 @@ export default function StaticPage() {
               }}
             >
               Go to Debug Page
-            </a>
+            </Link>
           </div>
         </div>
       </body>

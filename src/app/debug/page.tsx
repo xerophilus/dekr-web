@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from 'react';
+import Link from 'next/link';
 
 interface DebugInfo {
   loaded: boolean;
@@ -48,7 +49,11 @@ export default function DebugPage() {
       </pre>
       
       <h2>Navigation</h2>
-      <p><a href="/" style={{ color: 'blue' }}>Return to home page</a></p>
+      <p>
+        <Link href="/" style={{ color: 'blue' }}>
+          Return to home page
+        </Link>
+      </p>
     </div>
   );
 } 
