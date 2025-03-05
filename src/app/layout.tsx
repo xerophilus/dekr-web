@@ -11,6 +11,10 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Dekr - Smarter Trading, Simplified",
   description: "Swipe through stocks & crypto, track market insights, and invest with confidence—all in one intuitive platform.",
+  icons: {
+    icon: '/32.png',
+    apple: '/32.png',
+  },
 };
 
 export default function RootLayout({

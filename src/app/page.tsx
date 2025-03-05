@@ -44,7 +44,7 @@ export default function Home() {
               </div>
             </div>
             <div className="md:w-1/2 flex justify-center">
-              <div className="relative w-120 h-[640px] md:w-120 md:h-[640px]">
+              <div className="relative w-[320px] h-[736px] md:w-[320px] md:h-[736px]">
                 <div className="absolute w-full h-full rounded-3xl overflow-hidden">
                   <Image 
                     src="/DEKR-iphone-mock-up.png"
