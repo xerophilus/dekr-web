@@ -105,31 +105,31 @@ const BetaSignupModal: React.FC<BetaSignupModalProps> = ({ isOpen, onClose }) =>
               <div className="text-green-500 text-5xl mb-4">✓</div>
               <h4 className="font-heading text-xl font-semibold mb-2 text-on-background">Thanks for Applying!</h4>
               <p className="text-on-surface-variant">
-                We&apos;ve added you to our beta waitlist. We&apos;ll be in touch when your spot is ready!
+                We&apos;ve added you to our beta waitlist. We&apos;ll notify you if you&apos;re selected.
               </p>
             </div>
           ) : (
             <form className="space-y-4" onSubmit={handleSubmit}>
               <div>
-                <label htmlFor="name" className="block text-sm font-medium text-on-background mb-1">Full Name</label>
+                <label htmlFor="name" className="block text-sm font-medium text-gray-800 mb-1">Full Name</label>
                 <input 
                   type="text" 
                   id="name" 
                   value={formData.name}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded-lg focus:ring-2 focus:ring-primary focus:border-primary dark:bg-surface-variant dark:text-white"
+                  className="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded-lg focus:ring-2 focus:ring-primary focus:border-primary dark:bg-surface-variant text-gray-900 placeholder-gray-500 dark:placeholder-gray-400"
                   placeholder="Enter your name"
                   required
                 />
               </div>
               <div>
-                <label htmlFor="email" className="block text-sm font-medium text-on-background mb-1">Email Address</label>
+                <label htmlFor="email" className="block text-sm font-medium text-gray-800 mb-1">Email Address</label>
                 <input 
                   type="email" 
                   id="email" 
                   value={formData.email}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded-lg focus:ring-2 focus:ring-primary focus:border-primary dark:bg-surface-variant dark:text-white"
+                  className="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded-lg focus:ring-2 focus:ring-primary focus:border-primary dark:bg-surface-variant text-gray-900 placeholder-gray-500 dark:placeholder-gray-400"
                   placeholder="Enter your email"
                   required
                 />
@@ -141,7 +141,7 @@ const BetaSignupModal: React.FC<BetaSignupModalProps> = ({ isOpen, onClose }) =>
                 </div>
               )}
 
-              <div className="mt-2 text-sm text-gray-500 dark:text-gray-400">
+              <div className="mt-2 text-sm text-gray-600 dark:text-gray-300">
                 <p>This is an application for the beta program. Submission does not guarantee beta access. We&apos;ll notify you if you&apos;re selected.</p>
               </div>
 
