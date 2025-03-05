@@ -44,8 +44,8 @@ export default function Home() {
               </div>
             </div>
             <div className="md:w-1/2 flex justify-center">
-              <div className="relative w-72 h-[620px] md:w-80 md:h-[640px]">
-                <div className="absolute w-full h-full rounded-3xl overflow-hidden shadow-2xl">
+              <div className="relative w-120 h-[640px] md:w-120 md:h-[640px]">
+                <div className="absolute w-full h-full rounded-3xl overflow-hidden">
                   <Image 
                     src="/DEKR-iphone-mock-up.png"
                     alt="Dekr mobile app showing cryptocurrency card for FunFair US Dollar"
